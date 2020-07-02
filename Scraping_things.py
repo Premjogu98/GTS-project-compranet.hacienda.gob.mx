@@ -141,7 +141,7 @@ def check_date(get_htmlSource, SegField):
                 currentdate = time.strptime(date2 , "%Y-%m-%d")
                 if deadline > currentdate:
                     insert_in_Local(get_htmlSource, SegField)
-                    Global_var.inserted += 1
+                    
                     a = 1
                 else:
                     print("Tender Expired")

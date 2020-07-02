@@ -121,9 +121,8 @@ def create_filename(get_htmlSource , SegFeild):
         try:
             File_path = "Z:\\" + Fileid + ".html"
             file1 = open(File_path, "w", encoding='utf-8')
-            Final_Doc = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><BODY>" + get_htmlSource + "</BODY></html>"
-            Final_HTML_Document = "<head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" /><title>Tender Document</title></head><Blockquote style='border:1px solid; padding:10px;'>" + Final_Doc + "</Blockquote>"
-            file1.write(str(Final_HTML_Document))
+            Final_Doc = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\" /><title>Tender Document</title></head><BODY><Blockquote style='border:1px solid; padding:10px;'>" + get_htmlSource + "</Blockquote></BODY></html>"
+            file1.write(str(Final_Doc))
             file1.close()
             print("Code Reached On create_filename")
             return Fileid
@@ -216,6 +215,7 @@ def insert_L2L(SegFeild , Fileid):
             mycursor.close()
             print("Code Reached On insert_L2L")
             print('Live Tender')
+            Global_var.inserted += 1
             a5 = 1
         except Exception as e:
             Function_name: str = sys._getframe().f_code.co_name

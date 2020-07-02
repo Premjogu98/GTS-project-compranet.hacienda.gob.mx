@@ -13,7 +13,7 @@ from Scraping_things import scrap_data
 app = wx.App()
 
 def ChromeDriver():
-    browser = webdriver.Chrome(executable_path=str(f"F:\\chromedriver.exe"))
+    browser = webdriver.Chrome(executable_path=str(f"C:\\chromedriver.exe"))
     browser.get("https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX")
     browser.maximize_window()
     time.sleep(2)
@@ -75,12 +75,16 @@ def collect_links(browser):
             get_htmlSource = get_htmlSource.replace('href="#content"',f'href="{href}#content"')
             get_htmlSource = get_htmlSource.replace('src="/','src="https://compranet.hacienda.gob.mx/')
             get_htmlSource = get_htmlSource.replace('href="/','href="https://compranet.hacienda.gob.mx/')
+            get_htmlSource = get_htmlSource.replace('action="/','action="https://compranet.hacienda.gob.mx/')
             get_htmlSource = get_htmlSource.replace('<input type="text" disabled="disabled" class="displayNone">','')
+            # iframe = '<iframe src="https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX" style="display:none;"></iframe>'
+            # get_htmlSource = f'{iframe}<br>{get_htmlSource}'
+            mainlink = '<a href="https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX" target="_blank" style="color:red;">For any problem in tender document please click here.</a>'
+            get_htmlSource = f'{get_htmlSource}<br>{mainlink}'
             break
         if get_htmlSource != '':
             scrap_data(href,get_htmlSource)
             print(f'Total: {str(Global_var.Total)} Deadline Not given: {Global_var.deadline_Not_given} duplicate: {Global_var.duplicate} inserted: {Global_var.inserted} expired: {Global_var.expired} QC Tenders: {Global_var.QC_Tenders}')
-            wx.MessageBox(' 1 Inserted ','compranet.hacienda.gob.mx', wx.OK | wx.ICON_INFORMATION)
         else:
             wx.MessageBox(' get_htmlSource Var Blank ','compranet.hacienda.gob.mx', wx.OK | wx.ICON_INFORMATION)
 
