@@ -1,0 +1,763 @@
+<div id="cntAllPage" class="cntDetail">
+			<div id="fixedHeader" class="fixed slide-height"></div>
+<h2 class="accessHidden accessShortcut"><a id="mainTB" href="#mainTB" accesskey="2">Lista de Acciones</a></h2>
+<div id="mainToolbar-wrapper"><div id="mainToolbar" class="toolbar fixed">
+<ul class="leftArea">
+
+		<li class="toolbar-button icon-MAINBACK"><a href="/esop/toolkit/opportunity/opportunityList.do?oppList=CURRENT" title="Volver a la Lista"><img src="/esop_custom/images/top/back.png" title="" alt=""><span>Volver a la Lista</span></a></li>
+</ul>
+	<ul class="select-list">
+
+		<li class="toolbar-button icon-LOGIN"><a href="https://compranet.hacienda.gob.mx" title="Es necesario contar con nombre de usuario y contraseña para poder ingresar al sistema"><img src="/esop_custom/images/buttons/login_button.png" title="" alt=""><span>Ingresar al sistema CompraNet</span></a></li>
+	</ul>
+
+</div>
+
+</div>
+			<div id="title-wrapper">
+				<div id="title" class="open fixed">
+<div id="titleGraphic"><div class="clpsarrow"></div>		<div id="subtitle" class="arrow">
+<div class="subtitle_01 maintitle">
+	Expediente 2127606 - CONSTRUCCIÓN DE  RED DE ATARJEAS 1.2 KM CON TUBERÍA PEAD 20 CMS Y 30 CMS.  50 PO
+</div>
+<div class="subtitle_02 showableTitleRow">
+	Referencia del Expediente  LITP/FISM/OP/ATO/002/2020
+</div>
+	</div>
+</div>
+				</div>
+			</div>
+<div id="area-menu-wrapper">
+<div class="accessShortcut"><a id="areas" href="#areas" accesskey="3">Lista Áreas</a></div>
+<ul id="area1Level" class="drop"><li class="area1On"><a href="#fh" title="Detalles de Proyecto"><span>Detalles del Expediente</span></a><ul><li class="area2On"><a href="#fh"><span>Anuncio Publicado</span></a></li></ul></li></ul></div>
+<h1 class="accessHidden">Expediente 2127606 - CONSTRUCCIÓN DE  RED DE ATARJEAS 1.2 KM CON TUBERÍA PEAD 20 CMS Y 30 CMS.  50 PO (CompraNet)</h1><h2 class="accessHidden">Detalles del Expediente &gt; Anuncio Publicado</h2><div class="accessShortcut"><a id="content" href="#content" accesskey="1">Contenido principal</a></div><div id="cntDetail" class="containerDetail fixed">
+<noscript>
+		<div class="alert">
+		<strong>
+Atención! Sobre su visualizador ha sido deshabilitado java script. Pulse el botón situado abajo para  visualizar correctamente el portal.
+		</strong>
+		</div>
+			<form name="acessibilityInfoForm" method="POST" action="/esop/toolkit/opportunity/opportunityDetail.do?opportunityId=1862241&amp;oppList=CURRENT&amp;"> 		<div class="buttonSetNoJs">
+ 			<input type="hidden" name="ACS_SCRIPT_ENABLED" value="false">
+				<button type="submit" name="ACS_TAG_BUTTON_STANDARD" title="Acceder a la Versión sin Java" value="_standardValue_">[ Acceder a la Versión sin Java ]</button>
+ 		</div>
+			</form>
+</noscript>
+
+		<script type="text/javascript">
+			function openLink(link,event){
+				stopEventPropagation(event);
+				openWindow(link);
+			}
+			function rfxOrder(rfxOrderBy){
+				document.getElementById("oldOppRfxOrder").value = document.getElementById("oppRfxOrder").value;
+				document.getElementById("oppRfxOrder").value = rfxOrderBy;
+				submitForm(document.opportunityDetailForm.name,'rfxOrder');
+			}
+			function noticeOrder(noticeOrderBy){
+				document.getElementById("oldOppNoticeOrder").value = document.getElementById("oppNoticeOrder").value;
+				document.getElementById("oppNoticeOrder").value = noticeOrderBy;
+				submitForm(document.opportunityDetailForm.name,'noticeOrder');
+			}
+		</script>
+		
+			<h3 class="paragraph"><span class="list_img">Detalles del Expediente</span></h3>
+			<div class="form_container"><ul><li>
+				<div class="form_question">
+					Código del Expediente
+				</div>
+				<div class="form_answer">
+					2127606
+				
+</div>
+			
+</li>
+			<li>
+				<div class="form_question">
+					Descripción del Expediente
+				</div>
+				<div class="form_answer">
+					CONSTRUCCIÓN DE  RED DE ATARJEAS 1.2 KM CON TUBERÍA PEAD 20 CMS Y 30 CMS.  50 PO
+				
+</div>
+			
+</li>
+			
+				<li>
+					<div class="form_question">
+						Referencia del Expediente
+					</div>
+					<div class="form_answer">
+						 LITP/FISM/OP/ATO/002/2020
+					
+</div>
+				
+</li>
+			
+			
+			
+				
+					<li>
+						<div class="form_question">
+							Tipo de Expediente
+						</div>
+						<div class="form_answer">
+							04. Invitación a Cuando Menos Tres Personas LOPSRM
+						
+</div>
+					
+</li>
+				
+			
+			
+				
+					
+						
+							<li>
+								<div class="form_question">
+									Categorias del Expediente
+								</div>
+								<div class="form_answer">
+									
+										
+											<div>6130-Construcción de obras para el abastecimiento de agua, petróleo, gas, electricidad y telecomunicaciones</div>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+								
+</div>
+							
+</li>
+						
+					
+				
+			
+			</ul></div><h3 class="paragraph"><span class="list_img">Detalles del Anuncio</span></h3><div class="form_container"><ul>
+			<li>
+				<div class="form_question">
+					Descripción del Anuncio
+				</div>
+				<div class="form_answer">
+					CONSTRUCCIÓN DE  RED DE ATARJEAS 1.2 KM CON TUBERÍA PEAD 20 CMS Y 30 CMS.  50 POZOS, 240 DESCARGAS EN RED DE ATARJEAS, EN LA LOCALIDAD DE EL PARAISO MUNICIPIO DE ATOYAC DE ALVAREZ. SEGUNDA ETAPA DE CINCO
+				
+</div>
+			
+</li>
+			<li>
+				<div class="form_question">
+					Notas
+				</div>
+				<div class="form_answer">
+					Notas Adicionales por Defecto
+				
+</div>
+			
+</li>
+			<li>
+				<div class="form_question">
+					Tipo de Contratación
+				</div>
+				<div class="form_answer">
+					Obra Pública
+				
+</div>
+			
+</li>
+			<li>
+				<div class="form_question">
+					Entidad Federativa
+				</div>
+				<div class="form_answer">
+					Guerrero
+				
+</div>
+			
+</li>
+			
+				<li>
+					<div class="form_question">
+						Fecha de publicación del anuncio (Convocatoria / Invitación / Adjudicación / Proyecto de Convocatoria)
+					</div>
+					<div class="form_answer">
+						02/07/2020 12:36 AM
+					
+</div>
+				
+</li>
+			
+			
+			<li>
+				<div class="form_question">
+					Plazo de participación o vigencia del anuncio
+				</div>
+				<div class="form_answer">
+					17/07/2020 03:00 PM
+				
+</div>
+			
+</li>
+			
+				<li>
+					<div class="form_question">
+						Fecha de Inicio del Contrato
+					</div>
+					<div class="form_answer">
+						24/07/2020
+					
+</div>
+				
+</li>
+			
+			
+				<li>
+					<div class="form_question">
+						Duración del Contrato
+					</div>
+					<div class="form_answer">
+						100
+					
+</div>
+				
+</li>
+			
+			
+				<li>
+					<div class="form_question">
+						Fecha estimada de conclusión del contrato
+					</div>
+					<div class="form_answer">
+						31/10/2020
+					
+</div>
+				
+</li>
+			
+		</ul></div>
+
+		
+		
+			
+			<table id="conditionalPrefixFor_154" cellpadding="0" cellspacing="0" class="dataElementTable"><caption class="accessHidden">Lista de Información Adicional de la Oportunidad</caption><tbody><tr>
+	<th colspan="4" scope="colgroup" class="paragraph">
+<h4>DATOS GENERALES DEL PROCEDIMIENTO DE CONTRATACIÓN</h4>
+		<span class="paragraphDescription"></span>
+	</th>
+</tr>
+<tr class="accessHidden">
+	<th class="status"><span class="accessHidden">Columna de Icono</span></th>
+	<th scope="col">Etiqueta   </th>	<th scope="col">Descripción   </th>	<th scope="col">Valor Asignado por el Comprador   </th></tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_external_visible_to_seller.png" title="Dato generado automáticamente y Visible al Proveedor/Contratista" alt="Dato generado automáticamente y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Número del Procedimiento (Expediente)</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Este número se generará al momento de publicar el Procedimiento.
+</td>
+	<td>
+IO-812011948-E1-2020</td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Carácter del procedimiento</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Indicar el carácter del procedimiento
+</td>
+	<td>
+Nacional</td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Medio o forma del procedimiento</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Seleccionar el medio o forma de participación en el procedimiento.<br>
+(Electrónica sólo aplica a la LAASSP)
+</td>
+	<td>
+Presencial</td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Crédito externo</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Indicar si tiene crédito externo o no.
+</td>
+	<td>
+No</td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Procedimiento exclusivo para MIPYMES</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Defina si se establece como requisito de participación el que los licitantes acrediten ser una micro, pequeña o mediana empresa<br>
+(sólo aplica a la LAAASP)
+</td>
+	<td>
+No</td>
+</tr>
+<tr>
+	<th colspan="4" scope="colgroup" class="paragraph">
+<h4>CRONOGRAMA DEL PROCEDIMIENTO DE CONTRATACIÓN</h4>
+		<span class="paragraphDescription"></span>
+	</th>
+</tr>
+<tr class="accessHidden">
+	<th class="status"><span class="accessHidden">Columna de Icono</span></th>
+	<th scope="col">Etiqueta   </th>	<th scope="col">Descripción   </th>	<th scope="col">Valor Asignado por el Comprador   </th></tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Fecha visita a instalaciones / sitio de realización de los trabajos</td>
+	<td class="typeThreeCols">
+<span>
+En el supuesto de que haya visita a las instalaciones indicar la fecha de la visita
+</span>
+</td>
+	<td>
+09/07/2020</td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Hora y lugar de visita de instalaciones / sitio de realización de los trabajos</td>
+	<td class="typeThreeCols">
+<span>
+Indicar la hora y el lugar en que se realizará la visita a las instalaciones
+</span>
+</td>
+	<td>
+09:00 AM</td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Fecha junta de aclaraciones</td>
+	<td class="typeThreeCols">
+<span>
+Fecha para la celebración del acto de junta de aclaraciones
+</span>
+</td>
+	<td>
+10/07/2020</td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Hora y lugar de junta de aclaraciones</td>
+	<td class="typeThreeCols">
+<span>
+Indicar la hora y el lugar en la cual se realizará la junta de aclaraciones
+</span>
+</td>
+	<td>
+01:00 PM</td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Fecha del acto de fallo</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Fecha para la celebración del acto de fallo
+</td>
+	<td>
+22/07/2020</td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Hora y lugar del acto de fallo</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Hora y lugar para la celebración del acto de fallo
+</td>
+	<td>
+01:00 PM</td>
+</tr>
+<tr>
+	<th colspan="4" scope="colgroup" class="paragraph">
+<h4>ANEXOS DEL PROCEDIMIENTO DE CONTRATACIÓN</h4>
+		<span class="paragraphDescription"></span>
+	</th>
+</tr>
+<tr class="accessHidden">
+	<th class="status"><span class="accessHidden">Columna de Icono</span></th>
+	<th scope="col">Etiqueta   </th>	<th scope="col">Descripción   </th>	<th scope="col">Valor Asignado por el Comprador   </th></tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Convocatoria / Invitación</td>
+	<td class="typeThreeCols">
+<img src="/esop_custom/images/icons/actions/mandatory.png" title="Obligatorio!" alt="Obligatorio!">
+Archivos de convocatoria o invitación la cual contiene las bases del procedimiento. Tamaño máximo 150 MB.
+</td>
+	<td>
+<div class="attachTag"><div class="attachTag_left"><img src="/esop_custom/images/filetype/doc.png" alt="Formato doc" title="Formato doc">&nbsp;<a href="/esop/toolkit/DownloadProxy/46888926?verify=13&amp;oid=45867746" onclick="markTimeBeforeUnload();stopEventPropagation(event);" class="attachTaglink" title="Descargar archivo adjunto: Convocatoria a la lnvitacion  Restringida DS PARAISO.docx">Convocatoria a la lnvitacion  Restringid...</a>&nbsp;&nbsp;(157&nbsp;KB)</div></div></td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Anexos de Convocatoria.</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene los anexos de la convocatoria/invitación Tamaño máximo 150 MB.
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Escrito de justificación de la excepción a la licitación pública, cuando aplique</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene el escrito de justificación de la excepción a la licitación pública fundada en el artículo 41 de la LAASSP o en el artículo 42 de la LOPSRM
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Justificación para no aceptar proposiciones conjuntas</td>
+	<td class="typeThreeCols">
+<span>
+Si aplica, incorpore el documento de justificación por la cual no se aceptaron proposiciones conjuntas
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Acta(s) de junta de aclaraciones</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene el acta de junta de aclaraciones, Tamaño máximo 150 MB.
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Acta de presentación y apertura de proposiciones</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene el acta de presentación y apertura de proposiciones, Tamaño máximo 150 MB.
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Acta de fallo</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene el acta de fallo. Tamaño máximo 150 MB.
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Datos relevantes de contrato</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene el informe con los datos relevantes del  contrato. Tamaño máximo 150 MB.
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_a">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Testimonio del Testigo Social, si el procedimiento contó con el</td>
+	<td class="typeThreeCols">
+<span>
+Archivo que contiene el testimonio del testigo social. Tamaño máximo 150 MB.
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+<tr class="table_cnt_body_b">
+	<td scope="row" class="status">
+<img src="/esop_custom/images/icons/actions/dataelement_buyer_visible_to_seller.png" title="Compilado por el Operador UC y Visible al Proveedor/Contratista" alt="Compilado por el Operador UC y Visible al Proveedor/Contratista"></td>
+	<td class="typeThreeCols">
+Documento de autorización de subcontratación</td>
+	<td class="typeThreeCols">
+<span>
+Sólo aplica a la LOPSRM, en los casos en que haya existido alguna subcontratación no prevista en la convocatoria, invitación o condiciones de adjudicación, adjunte el o los documentos de autorización emitidos por el área responsable de la ejecución de los trabajos
+</span>
+</td>
+	<td>
+<div class="attachTag">&nbsp;<span>(sin archivo adjunto)</span>&nbsp;</div></td>
+</tr>
+</tbody></table>
+
+		
+		
+		<form name="opportunityDetailForm" method="post" action="/esop/toolkit/opportunity/opportunityDetail.do" autocomplete="off">
+<div><input type="text" disabled="disabled" class="displayNone">
+<input type="hidden" name="userAct" value="">
+
+			<input type="hidden" name="opportunityId" value="1862241">
+			<input type="hidden" name="oppList" value="CURRENT">
+			<input type="hidden" name="oldRfxOrderBy" value="" id="oldOppRfxOrder">
+			<input type="hidden" name="rfxOrderBy" value="" id="oppRfxOrder">
+			<input type="hidden" name="rfxAscendingOrder" value="true">
+			<input type="hidden" name="oldNoticeOrderBy" value="" id="oldOppNoticeOrder">
+			<input type="hidden" name="noticeOrderBy" value="" id="oppNoticeOrder">
+			<input type="hidden" name="noticeAscendingOrder" value="true">
+			
+			
+				<h3 class="paragraph"><span class="list_img">Responsable de realizar el Procedimiento de Contratación en CompraNet</span></h3>
+				<div class="form_container"><ul><li>
+					<div class="form_question">
+						Nombre de la Unidad Compradora (UC)
+					</div>
+					<div class="form_answer">
+						GRO-Atoyac de Álvarez-Direcciòn de Obras Publicas #812011948
+					
+</div>
+				
+</li>
+				<li>
+					<div class="form_question">
+						Nombre del Operador en la UC
+					</div>
+					<div class="form_answer">
+						Jose Angel Diego De Los Santos
+					
+</div>
+				
+</li>
+				<li>
+					<div class="form_question">
+						Correo Electrónico del Operador en la UC
+					</div>
+					<div class="form_answer">
+						francco27@gmail.com;francco27@gmail.com
+					
+</div>
+				
+</li>
+				
+
+					<li>
+						<div class="form_question">Enlace Web</div>
+						<div class="form_answer">
+							
+								
+							
+
+						</div>
+					</li>
+
+				
+			</ul></div>
+			
+				
+				<h3 class="paragraph">Anexos adicionales</h3>
+				<table cellpadding="0" cellspacing="0">
+					<caption class="accessHidden">Anexos</caption>
+					<tbody><tr>
+						<th scope="col" class="number">
+							<span class="accessHidden">
+								Número de Fila
+							</span>
+						</th>
+						<th scope="col">Nombre del archivo</th>
+						<th scope="col">Descripción del archivo</th>
+						<th scope="col">Comentarios sobre Anexos</th>
+						<th scope="col">Ultima fecha de modificación</th>
+					</tr>
+					<tr class="table_cnt_body_a">
+<td class="number" scope="row">1</td>
+<td><img src="/esop_custom/images/shim.gif" alt="Formato Desconocido" title="Formato Desconocido"><a onclick="javascript:markTimeBeforeUnload();" href="/esop/toolkit/DownloadProxy/46888956?verify=15&amp;oid=45867743&amp;fileId=22963340" title="Descargar archivo adjunto: ALCANTARILLADO SANITARIO DS PARAISO.dwg">ALCANTARILLADO SANITARIO DS PARAISO.dwg</a>&nbsp;&nbsp;(4,337 KB)&nbsp;</td>
+<td></td>
+<td></td>
+<td>01/07/2020 11:34 PM</td>
+</tr><tr class="table_cnt_body_b">
+<td class="number" scope="row">2</td>
+<td><img src="/esop_custom/images/filetype/doc.png" alt="Formato doc" title="Formato doc"><a onclick="javascript:markTimeBeforeUnload();" href="/esop/toolkit/DownloadProxy/46888948?verify=15&amp;oid=45867737&amp;fileId=22963336" title="Descargar archivo adjunto: Anexo 1 (propuesta).doc">Anexo 1 (propuesta).doc</a>&nbsp;&nbsp;(282 KB)&nbsp;</td>
+<td></td>
+<td></td>
+<td>01/07/2020 11:33 PM</td>
+</tr><tr class="table_cnt_body_a">
+<td class="number" scope="row">3</td>
+<td><img src="/esop_custom/images/filetype/doc.png" alt="Formato doc" title="Formato doc"><a onclick="javascript:markTimeBeforeUnload();" href="/esop/toolkit/DownloadProxy/46888949?verify=15&amp;oid=45867738&amp;fileId=22963337" title="Descargar archivo adjunto: Anexo 3 (Modelo de Contrato Atoyac) 1.docx">Anexo 3 (Modelo de Contrato Atoyac) 1.do...</a>&nbsp;&nbsp;(113 KB)&nbsp;</td>
+<td></td>
+<td></td>
+<td>01/07/2020 11:33 PM</td>
+</tr><tr class="table_cnt_body_b">
+<td class="number" scope="row">4</td>
+<td><img src="/esop_custom/images/filetype/xls.png" alt="Formato xls" title="Formato xls"><a onclick="javascript:markTimeBeforeUnload();" href="/esop/toolkit/DownloadProxy/46888951?verify=15&amp;oid=45867739&amp;fileId=22963338" title="Descargar archivo adjunto: Anexo 4 (formatos).xls">Anexo 4 (formatos).xls</a>&nbsp;&nbsp;(1,585 KB)&nbsp;</td>
+<td></td>
+<td></td>
+<td>01/07/2020 11:33 PM</td>
+</tr><tr class="table_cnt_body_a">
+<td class="number" scope="row">5</td>
+<td><img src="/esop_custom/images/filetype/xls.png" alt="Formato xls" title="Formato xls"><a onclick="javascript:markTimeBeforeUnload();" href="/esop/toolkit/DownloadProxy/46888958?verify=15&amp;oid=45867744&amp;fileId=22963341" title="Descargar archivo adjunto: CATALOGO DE CONCEPTOS PARAISO.xlsx">CATALOGO DE CONCEPTOS PARAISO.xlsx</a>&nbsp;&nbsp;(356 KB)&nbsp;</td>
+<td></td>
+<td></td>
+<td>01/07/2020 11:34 PM</td>
+</tr><tr class="table_cnt_body_b">
+<td class="number" scope="row">6</td>
+<td><img src="/esop_custom/images/filetype/doc.png" alt="Formato doc" title="Formato doc"><a onclick="javascript:markTimeBeforeUnload();" href="/esop/toolkit/DownloadProxy/46888959?verify=15&amp;oid=45867745&amp;fileId=22963342" title="Descargar archivo adjunto: ESPECIFICACIONES.doc">ESPECIFICACIONES.doc</a>&nbsp;&nbsp;(122 KB)&nbsp;</td>
+<td></td>
+<td></td>
+<td>01/07/2020 11:34 PM</td>
+</tr>
+				</tbody></table>
+				<div class="PagingTableList">
+
+	<div class="PagingContainer">
+
+		<div class="columnLeft"><span>Anexos:&nbsp;<strong>6</strong></span></div>
+
+		<div class="columnRight">
+		<span class="columnCenter"></span>
+</div>
+
+	</div></div>
+			
+			
+		</div></form>
+	</div>
+		</div>
