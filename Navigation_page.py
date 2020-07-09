@@ -64,6 +64,7 @@ def collect_links(browser):
         for next_page in browser.find_elements_by_xpath('//*[@class="NavBtnForward"]'):
             next_page.click()
             break
+        time.sleep(5)
     print(f'Collect Links: {len(html_links)}')
     Global_var.Total = len(html_links)
     for href in html_links:
@@ -79,12 +80,13 @@ def collect_links(browser):
             get_htmlSource = get_htmlSource.replace('<input type="text" disabled="disabled" class="displayNone">','')
             # iframe = '<iframe src="https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX" style="display:none;"></iframe>'
             # get_htmlSource = f'{iframe}<br>{get_htmlSource}'
-            mainlink = '<a href="https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX" target="_blank" style="color:red;">For any problem in tender document please click here.</a>'
+            mainlink = f'<p style="color:red;"><b>Note:</b> For any problem in attachments.</p><br><a href="https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX" target="_blank" style="color:red;">1 ) First click here to create session.</a><br><a href="{href}" target="_blank" style="color:red;">2 ) After creating session click here for main document.</a>'
             get_htmlSource = f'{get_htmlSource}<br>{mainlink}'
             break
         if get_htmlSource != '':
             scrap_data(href,get_htmlSource)
             print(f'Total: {str(Global_var.Total)} Deadline Not given: {Global_var.deadline_Not_given} duplicate: {Global_var.duplicate} inserted: {Global_var.inserted} expired: {Global_var.expired} QC Tenders: {Global_var.QC_Tenders}')
+            time.sleep(10)
         else:
             wx.MessageBox(' get_htmlSource Var Blank ','compranet.hacienda.gob.mx', wx.OK | wx.ICON_INFORMATION)
 
