@@ -7,11 +7,12 @@ import string
 import time
 from datetime import datetime
 import html
+import re
 
 def scrap_data(href,get_htmlSource):
 
     SegField = []
-    for data in range(42):
+    for data in range(45):
         SegField.append('')
 
     get_htmlSource = html.unescape(str(get_htmlSource))
@@ -21,10 +22,20 @@ def scrap_data(href,get_htmlSource):
         try:
             Email = get_htmlSource.partition('Correo Electrónico del Operador en la UC')[2].partition("</li>")[0].strip()
             Email = Email.partition('">')[2].partition("</div>")[0].strip().replace(';',' , ')
-            if Email == "":
+            Email_regex = re.findall("([a-zA-Z0-9_.+-]+@[a-zA-Z0-9_.+-]+\.[a-zA-Z]+)", Email)
+            if len(Email_regex) == 0:
                 Email = get_htmlSource.partition('correo electrónico del comprador')[2].partition("</li>")[0].strip()
                 Email = Email.partition('">')[2].partition("</div>")[0].strip().replace(';',' , ')
-            SegField[1] = Email
+                Email_regex = re.findall("([a-zA-Z0-9_.+-]+@[a-zA-Z0-9_.+-]+\.[a-zA-Z]+)", Email)
+                try:  
+                    SegField[1] = str(Email_regex[0])
+                except:
+                    SegField[1] = ''
+            else:
+                try:  
+                    SegField[1] = str(Email_regex[0])
+                except:
+                    SegField[1] = ''
             
             Purchaser = get_htmlSource.partition('Nombre de la Unidad Compradora (UC)')[2].partition("</li>")[0].strip()
             Purchaser = Purchaser.partition('">')[2].partition("</div>")[0].strip()
@@ -99,7 +110,10 @@ def scrap_data(href,get_htmlSource):
             SegField[14] = '2'
             SegField[16] = '1'
             SegField[17] = '0'
-
+            SegField[20] = ""
+            SegField[21] = "" 
+            SegField[42] = SegField[7]
+            SegField[43] = ""
             for SegIndex in range(len(SegField)):
                 print(SegIndex, end=' ')
                 print(SegField[SegIndex])

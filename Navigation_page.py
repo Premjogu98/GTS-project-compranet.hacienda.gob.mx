@@ -14,8 +14,11 @@ app = wx.App()
 
 def ChromeDriver():
     browser = webdriver.Chrome(executable_path=str(f"C:\\chromedriver.exe"))
-    browser.get("https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX")
     browser.maximize_window()
+    browser.get("""https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh?hl=en" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh%3Fhl%3Den&amp;ved=2ahUKEwivq8rjlcHmAhVtxzgGHZ-JBMgQFjAAegQIAhAB""")
+    wx.MessageBox(' -_-  Add Extension and Select Proxy Between 25 SEC -_- ','Info', wx.OK | wx.ICON_WARNING)
+    # time.sleep(25)
+    browser.get("https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX")
     time.sleep(2)
     for select_dropdown in browser.find_elements_by_xpath('//*[@id="widget_filterPickerSelect"]/div[1]/input'):
         select_dropdown.click()
@@ -36,7 +39,7 @@ def ChromeDriver():
     for Search_btn in browser.find_elements_by_xpath('//*[@id="filterSearchButton"]'):
         Search_btn.click()
         break
-    time.sleep(5)
+    time.sleep(8)
     for data_found_OR_not in browser.find_elements_by_xpath('//*[@id="cntList"]/form/div/div[2]'):
         data_found_OR_not = data_found_OR_not.get_attribute('innerText')
         if 'Sin resultado' in str(data_found_OR_not):
@@ -55,11 +58,12 @@ def collect_links(browser):
         page_count = page_count.partition('de')[2].strip()
         break
     for i in range(int(page_count)):
-        for links in browser.find_elements_by_xpath("/html/body/div/div[6]/div/div[2]/div[4]/form/div/table/tbody/tr/td[5]/a"):
+        for links in browser.find_elements_by_xpath('//*[@id="cntList"]/form/div/table/tbody[2]/tr/td[5]/a'):
             links = links.get_attribute('outerHTML')
             links = links.partition('javascript:goToDetail')[2].partition(";")[0].strip()
             links = links.partition("'")[2].partition("',")[0].strip()
             links = f'https://compranet.hacienda.gob.mx/esop/toolkit/opportunity/opportunityDetail.do?opportunityId={links}&oppList=CURRENT'
+            print(links)
             html_links.append(links)
         for next_page in browser.find_elements_by_xpath('//*[@class="NavBtnForward"]'):
             next_page.click()
