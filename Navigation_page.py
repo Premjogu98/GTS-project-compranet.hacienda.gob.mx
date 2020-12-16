@@ -15,8 +15,8 @@ app = wx.App()
 def ChromeDriver():
     browser = webdriver.Chrome(executable_path=str(f"C:\\chromedriver.exe"))
     browser.maximize_window()
-    browser.get("""https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh?hl=en" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh%3Fhl%3Den&amp;ved=2ahUKEwivq8rjlcHmAhVtxzgGHZ-JBMgQFjAAegQIAhAB""")
-    wx.MessageBox(' -_-  Add Extension and Select Proxy Between 25 SEC -_- ','Info', wx.OK | wx.ICON_WARNING)
+    # browser.get("""https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh?hl=en" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh%3Fhl%3Den&amp;ved=2ahUKEwivq8rjlcHmAhVtxzgGHZ-JBMgQFjAAegQIAhAB""")
+    # wx.MessageBox(' -_-  Add Extension and Select Proxy Between 25 SEC -_- ','Info', wx.OK | wx.ICON_WARNING)
     # time.sleep(25)
     browser.get("https://compranet.hacienda.gob.mx/esop/guest/go/public/opportunity/current?locale=es_MX")
     time.sleep(2)
@@ -58,7 +58,8 @@ def collect_links(browser):
         page_count = page_count.partition('de')[2].strip()
         break
     for i in range(int(page_count)):
-        for links in browser.find_elements_by_xpath('//*[@id="cntList"]/form/div/table/tbody[2]/tr/td[5]/a'):
+
+        for links in browser.find_elements_by_xpath('//*[@id="cntList"]/form/div/table/tbody[2]/tr/td[4]/a'):
             links = links.get_attribute('outerHTML')
             links = links.partition('javascript:goToDetail')[2].partition(";")[0].strip()
             links = links.partition("'")[2].partition("',")[0].strip()

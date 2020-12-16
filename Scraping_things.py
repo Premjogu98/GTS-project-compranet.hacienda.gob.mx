@@ -8,7 +8,8 @@ import time
 from datetime import datetime
 import html
 import re
-
+import wx
+app = wx.App()
 def scrap_data(href,get_htmlSource):
 
     SegField = []
@@ -64,10 +65,21 @@ def scrap_data(href,get_htmlSource):
             Deadline = Deadline.partition('">')[2].partition("</div>")[0].strip()
             Deadline = Deadline.partition(' ')[0].strip()
             # datetime_object = datetime.strptime(Deadline, '%d/%m/%Y %H:%M %p')
-            datetime_object = datetime.strptime(Deadline, '%d/%m/%Y')
-            Deadline = datetime_object.strftime("%Y-%m-%d")
-            SegField[24] = Deadline
-
+            if Deadline != '':
+                try:
+                    datetime_object = datetime.strptime(Deadline, '%d/%m/%Y')
+                    Deadline = datetime_object.strftime("%Y-%m-%d")
+                    SegField[24] = Deadline
+                except:pass
+            if SegField[24] == '':
+                Deadline = get_htmlSource.partition('Plazo de participación o vigencia del anuncio')[2].partition("</li>")[0].strip()
+                Deadline = Deadline.partition('">')[2].partition("</div>")[0].strip().replace(' ','').upper().replace('.','')
+                if Deadline != '':
+                    try:
+                        datetime_object = datetime.strptime(Deadline, '%d/%m/%Y%H:%M%p')
+                        Deadline = datetime_object.strftime("%Y-%m-%d")
+                        SegField[24] = Deadline
+                    except:pass
             
             Ad_Description = get_htmlSource.partition('Descripción del Anuncio')[2].partition("</li>")[0].strip()
             Ad_Description = Ad_Description.partition('">')[2].partition("</div>")[0].strip()
@@ -127,7 +139,9 @@ def scrap_data(href,get_htmlSource):
             if len(SegField[18]) >= 1500:
                 SegField[18] = str(SegField[18])[:1500]+'...'
 
-            
+            if SegField[24] == '':
+                wx.MessageBox(' Deadline Not Given ','compranet.hacienda.gob.mx', wx.OK | wx.ICON_INFORMATION)
+
             if SegField[19] == '':
                 wx.MessageBox(' Short Desc Blank ','compranet.hacienda.gob.mx', wx.OK | wx.ICON_INFORMATION)
             else:
